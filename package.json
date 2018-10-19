@@ -1,0 +1,30 @@
+{
+  "name": "carbonquery",
+  "version": "0.1.0",
+  "description": "Calculating carbon emissions",
+  "main": "start.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "roots": ["<rootDir>/src/"],
+    "verbose": true
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "pino": "^5.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
