@@ -9,22 +9,33 @@
   },
   "eslintConfig": {
     "extends": "airbnb-base",
+    "rules": {
+      "max-len": [
+        "error",
+        120
+      ]
+    },
     "env": {
       "jest": true
     }
   },
   "jest": {
-    "roots": ["<rootDir>/src/"],
+    "roots": [
+      "<rootDir>/src/"
+    ],
     "verbose": true
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "mathjs": "^5.2.1",
     "pino": "^5.8.0"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "pino-pretty": "^2.2.2"
   }
 }

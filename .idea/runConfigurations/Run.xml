@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/opt/nvm/versions/node/v8.12.0/bin/node" path-to-js-file="src/start.js" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="Run" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$PROJECT_DIR$/prettypino.sh" path-to-js-file="src/start.js" working-dir="$PROJECT_DIR$">
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="lint" run_configuration_type="js.build_tools.npm" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Jest" run_configuration_type="JavaScriptTestRunnerJest" />
