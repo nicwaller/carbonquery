@@ -29,7 +29,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mathjs": "^5.2.1",
-    "pino": "^5.8.0"
+    "pino": "^5.13.2"
   },
   "devDependencies": {
     "eslint": "^5.7.0",
